@@ -1,0 +1,13 @@
+C:\Users\user\source\repos\Security Guard Project\SecurityGuards\SecurityGuard.DataAccessLayer\bin\Debug\netcoreapp3.1\SecurityGuard.DataAccessLayer.deps.json
+C:\Users\user\source\repos\Security Guard Project\SecurityGuards\SecurityGuard.DataAccessLayer\bin\Debug\netcoreapp3.1\SecurityGuard.DataAccessLayer.runtimeconfig.json
+C:\Users\user\source\repos\Security Guard Project\SecurityGuards\SecurityGuard.DataAccessLayer\bin\Debug\netcoreapp3.1\SecurityGuard.DataAccessLayer.runtimeconfig.dev.json
+C:\Users\user\source\repos\Security Guard Project\SecurityGuards\SecurityGuard.DataAccessLayer\bin\Debug\netcoreapp3.1\SecurityGuard.DataAccessLayer.dll
+C:\Users\user\source\repos\Security Guard Project\SecurityGuards\SecurityGuard.DataAccessLayer\bin\Debug\netcoreapp3.1\SecurityGuard.DataAccessLayer.pdb
+C:\Users\user\source\repos\Security Guard Project\SecurityGuards\SecurityGuard.DataAccessLayer\obj\Debug\netcoreapp3.1\SecurityGuard.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\Security Guard Project\SecurityGuards\SecurityGuard.DataAccessLayer\obj\Debug\netcoreapp3.1\SecurityGuard.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\Security Guard Project\SecurityGuards\SecurityGuard.DataAccessLayer\obj\Debug\netcoreapp3.1\SecurityGuard.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\Security Guard Project\SecurityGuards\SecurityGuard.DataAccessLayer\obj\Debug\netcoreapp3.1\SecurityGuard.DataAccessLayer.AssemblyInfo.cs
+C:\Users\user\source\repos\Security Guard Project\SecurityGuards\SecurityGuard.DataAccessLayer\obj\Debug\netcoreapp3.1\SecurityGuard.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Security Guard Project\SecurityGuards\SecurityGuard.DataAccessLayer\obj\Debug\netcoreapp3.1\SecurityGuard.DataAccessLayer.dll
+C:\Users\user\source\repos\Security Guard Project\SecurityGuards\SecurityGuard.DataAccessLayer\obj\Debug\netcoreapp3.1\SecurityGuard.DataAccessLayer.pdb
+C:\Users\user\source\repos\Security Guard Project\SecurityGuards\SecurityGuard.DataAccessLayer\obj\Debug\netcoreapp3.1\SecurityGuard.DataAccessLayer.genruntimeconfig.cache

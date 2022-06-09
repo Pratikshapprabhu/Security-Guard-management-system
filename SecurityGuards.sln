@@ -9,8 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecurityGuard.ConsoleApp", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecurityGuard.ServiceLayer", "SecurityGuard.ServiceLayer\SecurityGuard.ServiceLayer.csproj", "{418FFF30-9BDF-4BDC-ABA3-D59B4B292019}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityGuard.UI", "SecurityGuard.UI\SecurityGuard.UI.csproj", "{70077F57-59BE-4532-B967-FC00EA276B65}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,10 +27,6 @@ Global
 		{418FFF30-9BDF-4BDC-ABA3-D59B4B292019}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{418FFF30-9BDF-4BDC-ABA3-D59B4B292019}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{418FFF30-9BDF-4BDC-ABA3-D59B4B292019}.Release|Any CPU.Build.0 = Release|Any CPU
-		{70077F57-59BE-4532-B967-FC00EA276B65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{70077F57-59BE-4532-B967-FC00EA276B65}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{70077F57-59BE-4532-B967-FC00EA276B65}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{70077F57-59BE-4532-B967-FC00EA276B65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,26 @@
+<div class="login-page">
+  <div class="form">
+    <div class="form-heading">Login</div>
+    <form class="login-form" name="form" (ngSubmit)="submitLoginForm(f)" #f="ngForm">
+      <input type="text" placeholder="email" #emailRef="ngModel" name="Email" ngModel required>
+      <div *ngIf="emailRef.errors && (emailRef.dirty || emailRef.touched)" style="text-align:left; padding:5px; color:red;">
+        <div [hidden]="!emailRef.errors.required">
+          <p>&nbsp;Email id is mandatory</p>
+        </div>
+        <div [hidden]="!emailRef.errors.pattern">
+          <p>&nbsp;Email id is not entered in proper format</p>
+        </div>
+      </div>
+      <input type="password" placeholder="password" #passwordRef="ngModel" name="Password" ngModel required />
+      <div style="text-align:left; padding:5px; color:red;">
+        <div [hidden]="passwordRef.valid || passwordRef.pristine">
+          <p>&nbsp;Password is mandatory</p>
+        </div>
+      </div>
+      <button>login</button>
+
+      <p style="color:red;">{{status}}</p>
+      <p class="message">Not registered? <a href="register">Create an account</a></p>
+    </form>
+  </div>
+</div>

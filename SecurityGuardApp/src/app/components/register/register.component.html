@@ -1,0 +1,13 @@
+<div class="register-page">
+  <div class="form">
+    <div class="form-heading">Register</div>
+    <form class="register-form" [formGroup]="userForm" ngNativeValidate (ngSubmit)="onFormSubmit(userForm.value)">
+      <input type="text" placeholder="User name" formControlName="UserName" />
+      <input type="email" placeholder="email" formControlName="Email" required />
+      <input type="number" placeholder="phone number" formControlName="PhoneNumber" />
+      <input type="password" placeholder="password" formControlName="UserPassword" required />      
+      <button type="submit">register</button>
+      <p class="message">Already registered? <a href="login">Login</a></p>
+    </form>
+  </div>
+</div>

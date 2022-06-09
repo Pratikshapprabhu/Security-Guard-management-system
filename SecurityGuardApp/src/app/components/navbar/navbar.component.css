@@ -1,0 +1,31 @@
+nav {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: white;
+  box-shadow: 0 0 10px 0 grey;
+}
+
+.nav-logo{
+   font-size:20px;
+   font-weight:600;
+}
+
+.nav-items{
+    display:flex;
+    width:20%;
+    align-items:center;
+    justify-content:space-between;
+    cursor:pointer;
+    
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+

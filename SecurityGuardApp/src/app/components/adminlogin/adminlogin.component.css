@@ -1,0 +1,219 @@
+*, body {
+  padding: 0;
+  margin: 0;
+}
+
+.login-page {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #76b852;
+  background: rgb(141,194,111);
+  background: linear-gradient(90deg, rgba(141,194,111,1) 0%, rgba(118,184,82,1) 50%);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 40px;
+  background: white;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form-heading {
+  text-align: center;
+  margin: 20px;
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+}
+
+.login-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  margin-bottom: 10px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.message {
+  font-size: 12px;
+  margin: 5px;
+}
+
+*, body {
+  padding: 0;
+  margin: 0;
+}
+
+.login-page {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #76b852;
+  background: rgb(141,194,111);
+  background: linear-gradient(90deg, rgba(141,194,111,1) 0%, rgba(118,184,82,1) 50%);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 40px;
+  background: white;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form-heading {
+  text-align: center;
+  margin: 20px;
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+}
+
+.login-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  margin-bottom: 10px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all ease;
+  transition: all ease;
+  cursor: pointer;
+}
+
+.message {
+  font-size: 12px;
+  margin: 5px;
+}
+
+
+
+body {
+  background: #e7e8e9;
+  padding: 40px;
+}
+
+.btn {
+  background-image: linear-gradient(to right, #006175 0%, #00a950 100%);
+  border-radius: 20px;
+  box-sizing: border-box;
+  color: #00a84f;
+  display: block;
+  font: 1.125rem 'Oswald', Arial, sans-serif; /*18*/
+  height: 50px;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  padding: 4px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 144px;
+  z-index: 2;
+}
+
+  .btn:hover {
+    color: #fff;
+  }
+
+  .btn span {
+    align-items: center;
+    background: #e7e8e9;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition: background .5s ease;
+    width: 100%;
+  }
+
+  .btn:hover span {
+    background: transparent;
+  }
+
+
+input.ng-touched {
+  border-left: 5px solid red;
+}
+
+input.ng-untouched {
+  border-left: 5px solid green;
+}
+
+input.ng-dirty {
+  border-left: 5px solid red;
+}
+
+input.ng-pristine {
+  border-left: 5px solid green;
+}
+
+input.ng-invalid {
+  border-left: 5px solid red;
+}
+
+input.ng-valid {
+  border-left: 5px solid green;
+}
+
+input.ng-invalid.ng-touched {
+  border-left: 5px solid red;
+}
+
+input.ng-valid {
+  border-left: 5px solid green;
+}
+

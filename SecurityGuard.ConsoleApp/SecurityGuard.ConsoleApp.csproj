@@ -6,7 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SecurityGuard.DataAccessLayer\SecurityGuard.DataAccessLayer.csproj" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
   </ItemGroup>
 
 </Project>

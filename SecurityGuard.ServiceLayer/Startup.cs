@@ -25,6 +25,10 @@ namespace SecurityGuard.ServiceLayer
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddControllersWithViews();
+            services.AddRazorPages();
+            services.AddCors(c => { c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin()); });
+
             services.AddControllers();
         }
 
@@ -41,7 +45,7 @@ namespace SecurityGuard.ServiceLayer
             app.UseRouting();
 
             app.UseAuthorization();
-
+            app.UseCors(cors => cors.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

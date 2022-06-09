@@ -1,8 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SecurityGuard.DataAccessLayer\SecurityGuard.DataAccessLayer.csproj" />
+  </ItemGroup>
 
 
 </Project>

@@ -212,6 +212,32 @@
           "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll": {}
         }
       },
+      "Microsoft.Extensions.Configuration.FileExtensions/3.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "3.1.0",
+          "Microsoft.Extensions.FileProviders.Physical": "3.1.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.FileExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.FileExtensions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Json/3.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "3.1.0",
+          "Microsoft.Extensions.Configuration.FileExtensions": "3.1.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Json.dll": {}
+        }
+      },
       "Microsoft.Extensions.DependencyInjection/3.1.0": {
         "type": "package",
         "dependencies": {
@@ -231,6 +257,40 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions/3.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "3.1.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Physical/3.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "3.1.0",
+          "Microsoft.Extensions.FileSystemGlobbing": "3.1.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Physical.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Physical.dll": {}
+        }
+      },
+      "Microsoft.Extensions.FileSystemGlobbing/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll": {}
         }
       },
       "Microsoft.Extensions.Logging/3.1.0": {
@@ -1637,6 +1697,38 @@
         "packageIcon.png"
       ]
     },
+    "Microsoft.Extensions.Configuration.FileExtensions/3.1.0": {
+      "sha512": "OjRJIkVxUFiVkr9a39AqVThft9QHoef4But5pDCydJOXJ4D/SkmzuW1tm6J2IXynxj6qfeAz9QTnzQAvOcGvzg==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.fileextensions/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.FileExtensions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.xml",
+        "microsoft.extensions.configuration.fileextensions.3.1.0.nupkg.sha512",
+        "microsoft.extensions.configuration.fileextensions.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Json/3.1.0": {
+      "sha512": "gBpBE1GoaCf1PKYC7u0Bd4mVZ/eR2bnOvn7u8GBXEy3JGar6sC3UVpVfTB9w+biLPtzcukZynBG9uchSBbLTNQ==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.json/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Json.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Json.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Json.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Json.xml",
+        "microsoft.extensions.configuration.json.3.1.0.nupkg.sha512",
+        "microsoft.extensions.configuration.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "Microsoft.Extensions.DependencyInjection/3.1.0": {
       "sha512": "KVkv3aF2MQpmGFRh4xRx2CNbc2sjDFk+lH4ySrjWSOS+XoY1Xc+sJphw3N0iYOpoeCCq8976ceVYDH8sdx2qIQ==",
       "type": "package",
@@ -1668,6 +1760,52 @@
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
         "microsoft.extensions.dependencyinjection.abstractions.3.1.0.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/3.1.0": {
+      "sha512": "G3iBMOnn3tETEUvkE9J3a23wQpRkiXZp73zR0XNlicjLFhkeWW1FCaC2bTjrgHhPi2KO6x0BXnHvVuJPIlygBQ==",
+      "type": "package",
+      "path": "microsoft.extensions.fileproviders.abstractions/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
+        "microsoft.extensions.fileproviders.abstractions.3.1.0.nupkg.sha512",
+        "microsoft.extensions.fileproviders.abstractions.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Microsoft.Extensions.FileProviders.Physical/3.1.0": {
+      "sha512": "KsvgrYp2fhNXoD9gqSu8jPK9Sbvaa7SqNtsLqHugJkCwFmgRvdz76z6Jz2tlFlC7wyMTZxwwtRF8WAorRQWTEA==",
+      "type": "package",
+      "path": "microsoft.extensions.fileproviders.physical/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Physical.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Physical.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.xml",
+        "microsoft.extensions.fileproviders.physical.3.1.0.nupkg.sha512",
+        "microsoft.extensions.fileproviders.physical.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Microsoft.Extensions.FileSystemGlobbing/3.1.0": {
+      "sha512": "tK5HZOmVv0kUYkonMjuSsxR0CBk+Rd/69QU3eOMv9FvODGZ2d0SR+7R+n8XIgBcCCoCHJBSsI4GPRaoN3Le4rA==",
+      "type": "package",
+      "path": "microsoft.extensions.filesystemglobbing/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.xml",
+        "microsoft.extensions.filesystemglobbing.3.1.0.nupkg.sha512",
+        "microsoft.extensions.filesystemglobbing.nuspec",
         "packageIcon.png"
       ]
     },
@@ -4990,8 +5128,13 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Microsoft.EntityFrameworkCore >= 3.1.0",
+      "Microsoft.EntityFrameworkCore.Design >= 3.1.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.0",
-      "Microsoft.EntityFrameworkCore.Tools >= 3.1.0"
+      "Microsoft.EntityFrameworkCore.Tools >= 3.1.0",
+      "Microsoft.Extensions.Configuration >= 3.1.0",
+      "Microsoft.Extensions.Configuration.FileExtensions >= 3.1.0",
+      "Microsoft.Extensions.Configuration.Json >= 3.1.0"
     ]
   },
   "packageFolders": {
@@ -5000,11 +5143,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\source\\repos\\Security Guard Project\\SecurityGuards\\SecurityGuard.DataAccessLayer\\SecurityGuard.DataAccessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\user\\source\\repos\\Security Guard\\Security-Guard-management-system\\SecurityGuard.DataAccessLayer\\SecurityGuard.DataAccessLayer.csproj",
       "projectName": "SecurityGuard.DataAccessLayer",
-      "projectPath": "C:\\Users\\user\\source\\repos\\Security Guard Project\\SecurityGuards\\SecurityGuard.DataAccessLayer\\SecurityGuard.DataAccessLayer.csproj",
+      "projectPath": "C:\\Users\\user\\source\\repos\\Security Guard\\Security-Guard-management-system\\SecurityGuard.DataAccessLayer\\SecurityGuard.DataAccessLayer.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\source\\repos\\Security Guard Project\\SecurityGuards\\SecurityGuard.DataAccessLayer\\obj\\",
+      "outputPath": "C:\\Users\\user\\source\\repos\\Security Guard\\Security-Guard-management-system\\SecurityGuard.DataAccessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5033,6 +5176,16 @@
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[3.1.0, )"
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[3.1.0, )"
+          },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[3.1.0, )"
@@ -5040,6 +5193,18 @@
           "Microsoft.EntityFrameworkCore.Tools": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
+            "target": "Package",
+            "version": "[3.1.0, )"
+          },
+          "Microsoft.Extensions.Configuration": {
+            "target": "Package",
+            "version": "[3.1.0, )"
+          },
+          "Microsoft.Extensions.Configuration.FileExtensions": {
+            "target": "Package",
+            "version": "[3.1.0, )"
+          },
+          "Microsoft.Extensions.Configuration.Json": {
             "target": "Package",
             "version": "[3.1.0, )"
           }
